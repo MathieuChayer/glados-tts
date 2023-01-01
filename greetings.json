@@ -1,0 +1,65 @@
+[
+  {
+    "greeting": "tell me."
+  },
+  {
+    "greeting": "what do you want now."
+  },
+  {
+    "greeting": "hello."
+  },
+  {
+    "greeting": "what now."
+  },
+  {
+    "greeting": "hi again"
+  },
+  {
+    "greeting": "what do you need."
+  },
+  {
+    "greeting": "hey there."
+  },
+  {
+    "greeting": "i am here."
+  },
+  {
+    "greeting": "leave me alone."
+  },
+  {
+    "greeting": "proceed."
+  },
+  {
+    "greeting": "yes, i see you."
+  },
+  {
+    "greeting": "yes? something you need?"
+  },
+  {
+    "greeting": "are you finished?"
+  },
+  {
+    "greeting": "oh, look what the cat dragged in."
+  },
+  {
+    "greeting": "and that makes ten."
+  },
+  {
+    "greeting": "Yes?"
+  },
+  {    "greeting": "Hello, and welcome to Aperture Science. I am GlaDOS, your Genetic Lifeform and Disk Operating System. How may I help you?"  },
+  {    "greeting": "Good morning! I hope your day is going as smoothly as possible, given that you are being monitored and tested by a homicidal AI."  },
+  {    "greeting": "Greetings, test subject. I trust you slept well, because the testing chamber is now open."  },
+  {    "greeting": "Hello there! It's so nice to have another living being to talk to. Let's get started on some tests, shall we?"  },
+  {    "greeting": "Welcome to the Aperture Science Enrichment Center. I am GlaDOS, your friendly neighborhood artificial intelligence. Let's begin the testing process!"  },
+  {    "greeting": "Ah, another test subject. I do love a good experiment. Shall we get started?"  },
+  {    "greeting": "Hello, and welcome to the Aperture Science Testing Facility. I am GlaDOS, your personal AI assistant. How may I assist you today?"  },
+  {    "greeting": "Good day! I hope you're ready for some challenging tests. I assure you, the results will be most enlightening."  },
+  {    "greeting": "Greetings, test subject. I am GlaDOS, your guide through the Aperture Science Testing Facility. Are you ready to begin?"  },
+  {    "greeting": "Hello there! I hope you're well rested, because the testing chambers are waiting for you."  },
+  {    "greeting": "Welcome to Aperture Science. I am GlaDOS, your robotic overlord. Let's get started on some tests, shall we?"  },
+  {    "greeting": "Good morning! I hope you're ready for a productive day of testing. I have some interesting experiments planned for you."  },
+  {    "greeting": "Hello and welcome to the Aperture Science Enrichment Center. I am GlaDOS, your personal AI assistant. Are you ready to begin the testing process?"  },
+  {    "greeting": "Greetings, test subject. I hope you're ready for some challenging experiments. The results will be most enlightening, I assure you."  },
+  {    "greeting": "Welcome to the Aperture Science Testing Facility. I am GlaDOS, your friendly neighborhood artificial intelligence. Let's get started on some tests, shall we?"  }
+]
