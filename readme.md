@@ -4,6 +4,8 @@ Based on the work of R2D2FISH and nerdaxic, this project aims to
 build a simple virtual assistant with the voice and attitude of the
 evil GladOS from the Portal Franchise.
 
+You just have to run glados.py and type in your commands ! 
+
 So far, the virtual assistance has a few simple skills :
 
 - Greet the user
