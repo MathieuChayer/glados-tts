@@ -119,6 +119,8 @@ def process_input(input_str):
 
   input_str = input_str.lower()
   hellos = ["hello", "hi", "hola", "good morning", "good evening", "good night"]
+  byes = ["bye", "see you", "goodbye", "adios"]
+
 
   if input_str[0:3] == "say":
     speak(input_str[3:])
@@ -151,6 +153,9 @@ def process_input(input_str):
       print(text)
       speak(text)
 
+  if bool([ele for ele in byes if (ele in input_str)]):
+      aurevoir()
+
   else:
     text = "I'm sorry, I can't do that. I am just a virtual assistant."
     print(text)
@@ -169,6 +174,13 @@ def greet():
 
     print(greeting)
     speak(greeting)
+
+def aurevoir():
+    global listening
+    listening = False
+    dismiss = dismisses[0]["phrase"]
+    print(dismiss)
+    speak(dismiss)
 
 def joke():
     global joke_index
@@ -227,7 +239,7 @@ print(r"  / ____| |         | |/ __ \ / ____|")
 print(r" | |  __| | __ _  __| | |  | | (___")
 print(r" | | |_ | |/ _` |/ _` | |  | |\___ \ ")
 print(r" | |__| | | (_| | (_| | |__| |____) |")
-print(r"  \\____|_|\__,_|\__,_|\____/|_____/")
+print(r"  \_____|_|\__,_|\__,_|\____/|_____/")
 
 # Select the device
 if torch.is_vulkan_available():
@@ -261,8 +273,19 @@ jokes = json.load(file)
 random.shuffle(jokes)
 joke_index = 0;
 
+# Dismisses
+file = open("dismisses.json")
+dismisses = json.load(file)
+random.shuffle(dismisses)
+
+
+
 greet()
 
-while True:
-    text = input(">> ")
-    process_input(text)
+listening = True
+
+while listening:
+    input_str = input(">> ")
+    process_input(input_str)
+
+
